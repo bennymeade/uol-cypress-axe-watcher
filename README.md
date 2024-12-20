@@ -1,5 +1,5 @@
 # uol-cypress-axe-watcher
-Reproduce Cypress timeout error with Axe Watcher on minimal repo.
+Reproduce Cypress timeout error with Axe Watcher on minimal repository.
 
 # Prerequisite
 - Using PNPM package manager
@@ -9,7 +9,7 @@ Reproduce Cypress timeout error with Axe Watcher on minimal repo.
 - Extract the value of cookie `nf_jwt`
 
 # Steps
-- Clone report `git clone https://github.com/bennymeade/uol-cypress-axe-watcher.git`
+- Clone repository `git clone https://github.com/bennymeade/uol-cypress-axe-watcher.git`
 - Install packages command `pnpm install`
 - Export API token for `AXE_WATCHER_API_TOKEN`
 - Export authentication token for `CYPRESS_JWT_TOKEN`
