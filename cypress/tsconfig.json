@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom", "es2015"],
+    "types": [
+      "node",
+      "cypress"
+    ],
+    "isolatedModules": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "sourceMap": false,
+    "verbatimModuleSyntax": false
+  },
+  "include": ["../**/*.ts", "**/*.ts", "./@types/*.d.ts"]
+}
