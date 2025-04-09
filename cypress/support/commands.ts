@@ -22,6 +22,21 @@ Cypress.Commands.add("authVisit", (url) => {
   cy.setCookie("nf_jwt", Cypress.env("JWT_TOKEN"), {
     domain: "qa-automation.unileveronline.com",
   });
+  // remove the prompt modal
+    const key = 'uol-prompt-61cbfe41-abb0-4bd6-ac65-8b07e2a7b286';
+    const value = JSON.stringify({
+      id: '61cbfe41-abb0-4bd6-ac65-8b07e2a7b286',
+      pageViews: 0,
+      chanceThreshold: 85,
+      chanceResult: 0,
+      promptClosedDateTime: '2025-01-01T21:51:23.448Z',
+      dismissed: false,
+      accepted: true,
+    });
+    cy.window().then(win => {
+      win.localStorage.setItem(key, value);
+    });
+
   cy.visit(url, {
     failOnStatusCode: true,
     onBeforeLoad(win: Window) {
