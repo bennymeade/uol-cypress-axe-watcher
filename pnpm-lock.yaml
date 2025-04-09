@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@axe-core/watcher':
-        specifier: ^3.17.2
-        version: 3.17.2
+        specifier: 3.20.1
+        version: 3.20.1
       '@types/node':
         specifier: ^22.10.2
         version: 22.10.2
@@ -29,8 +29,8 @@ importers:
 
 packages:
 
-  '@axe-core/watcher@3.17.2':
-    resolution: {integrity: sha512-Wvw4gmlgfaKLZgUFftKbKb57CZ1pwwB9vlfPTB4BR/TaZf3cczTkoF49kRo5z6rjRVmZdF83BYWAAD2J2QXXuA==}
+  '@axe-core/watcher@3.20.1':
+    resolution: {integrity: sha512-K7uz6thsCkJTntIeucuy93coH2gq2ty453F6SSy5bq4ya+wc3KaICED05t7CHZq+PZVo4mKoOOPMu+HGe0cuJw==}
 
   '@colors/colors@1.5.0':
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
@@ -764,8 +764,8 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  uuid@10.0.0:
-    resolution: {integrity: sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==}
+  uuid@11.1.0:
+    resolution: {integrity: sha512-0/A9rDy9P7cJ+8w1c9WD9V//9Wj15Ce2MPz8Ri6032usz+NfePxx5AcN3bN+r6ZL6jEo066/yNYB3tn4pQEx+A==}
     hasBin: true
 
   uuid@8.3.2:
@@ -803,13 +803,13 @@ packages:
 
 snapshots:
 
-  '@axe-core/watcher@3.17.2':
+  '@axe-core/watcher@3.20.1':
     dependencies:
       debug: 4.4.0(supports-color@8.1.1)
       eventemitter3: 5.0.1
       node-fetch: 2.7.0
       sync-request: 6.1.0
-      uuid: 10.0.0
+      uuid: 11.1.0
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -1579,7 +1579,7 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  uuid@10.0.0: {}
+  uuid@11.1.0: {}
 
   uuid@8.3.2: {}
 
