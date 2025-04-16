@@ -33,5 +33,6 @@ declare global {
 }
 
 afterEach(() => { 
+  cy.log('Running Axe Watcher...')
   cy.axeWatcherFlush(); 
 });

@@ -12,8 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.10.2",
-    "@axe-core/watcher": "^3.17.2",
-    "cypress": "^13.17.0",
+    "@axe-core/watcher": "3.20.1",
+    "cypress": "14.2.1",
     "cypress-plugin-tab": "^1.0.5",
     "cypress-recurse": "^1.35.3",
     "typescript": "^5.7.2"
